@@ -154,7 +154,7 @@ def simulasi():
 
         return render_template('HasilPrediksi.html', hasil_simulasi=data_terdahulu, rata_rata_prediksi=rata_rata_prediksi)
 
-    return render_template('Simulasi.html')
+    return render_template('simulasi.html')
 
 @app.route('/hasil_prediksi')
 def hasil_prediksi():
