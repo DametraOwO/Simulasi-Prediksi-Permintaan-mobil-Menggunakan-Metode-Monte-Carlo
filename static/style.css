@@ -1,0 +1,68 @@
+/* Tambahan untuk memastikan footer sticky */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer sticky */
+footer {
+    margin-top: auto; /* Mengganti margin-top sebelumnya */
+    background-color: #343a40; /* Warna gelap untuk konsistensi */
+    color: #ffffff; /* Warna teks putih */
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem; /* Ukuran font lebih kecil untuk footer */
+}
+
+/* Gaya lainnya tetap */
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header h3 {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #FFD700 !important; /* Gold */
+    font-weight: bold;
+}
+.navbar-brand:hover {
+    color: #FFFFFF !important; /* White */
+    text-decoration: underline;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #ddd;
+}
